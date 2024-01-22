@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "d0df330d-0c88-4821-a54e-580ee887ae1c",
+		"name": "PC(Direct )",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27053902"
+	},
+	"item": [
+		{
+			"name": "PC(Direct )",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "account",
+							"value": "140105",
+							"type": "text"
+						},
+						{
+							"key": "terminal",
+							"value": "14010506",
+							"type": "text"
+						},
+						{
+							"key": "signValue",
+							"value": "3c84eb4ca2a15a8ca0e029f26640d60fd04335b2a9fc7229fee9fe3598b39363",
+							"type": "text"
+						},
+						{
+							"key": "methods",
+							"value": "WeChatPay_Web",
+							"type": "text"
+						},
+						{
+							"key": "order_number",
+							"value": "wexin15",
+							"type": "text"
+						},
+						{
+							"key": "order_currency",
+							"value": "CNY",
+							"type": "text"
+						},
+						{
+							"key": "order_amount",
+							"value": "0.1",
+							"type": "text"
+						},
+						{
+							"key": "noticeUrl",
+							"value": "http://www.abc.com/notice.php",
+							"type": "text"
+						},
+						{
+							"key": "billing_firstName",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "billing_lastName",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "billing_email",
+							"value": "test@163.com",
+							"type": "text"
+						},
+						{
+							"key": "billing_phone",
+							"value": "13800138000",
+							"type": "text"
+						},
+						{
+							"key": "billing_country",
+							"value": "CN",
+							"type": "text"
+						},
+						{
+							"key": "productSku",
+							"value": "#001",
+							"type": "text"
+						},
+						{
+							"key": "productName",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "productNum",
+							"value": "1.99",
+							"type": "text"
+						},
+						{
+							"key": "productPrice",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "billing_ip",
+							"value": "127.0.0.1",
+							"type": "text"
+						},
+						{
+							"key": "backUrl",
+							"value": "http://www.abc.com/notice.php",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://secure.oceanpayment.com/gateway/directservice/pay",
+					"protocol": "https",
+					"host": [
+						"secure",
+						"oceanpayment",
+						"com"
+					],
+					"path": [
+						"gateway",
+						"directservice",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

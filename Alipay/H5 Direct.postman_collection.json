@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "4fca4b53-3af0-4576-8147-cdca16e9e48d",
+		"name": "H5 Direct",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27053902"
+	},
+	"item": [
+		{
+			"name": "H5 Direct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "account",
+							"value": "140105",
+							"type": "text"
+						},
+						{
+							"key": "terminal",
+							"value": "140105157",
+							"type": "text"
+						},
+						{
+							"key": "signValue",
+							"value": "95529f0470ea62193566f880f13ab9c656e2546b445144384875e98773731ed7",
+							"type": "text"
+						},
+						{
+							"key": "methods",
+							"value": "Alipay_Wap",
+							"type": "text"
+						},
+						{
+							"key": "order_number",
+							"value": "alipayq22",
+							"type": "text"
+						},
+						{
+							"key": "order_currency",
+							"value": "CNY",
+							"type": "text"
+						},
+						{
+							"key": "order_amount",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "billing_firstName",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "billing_lastName",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "billing_email",
+							"value": "pj2818@163.com",
+							"type": "text"
+						},
+						{
+							"key": "billing_country",
+							"value": "CN",
+							"type": "text"
+						},
+						{
+							"key": "billing_ip",
+							"value": "112.125.46.58",
+							"type": "text"
+						},
+						{
+							"key": "productName",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "productNum",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "productSku",
+							"value": "sku",
+							"type": "text"
+						},
+						{
+							"key": "productPrice",
+							"value": "1.66",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://test-secure.oceanpayment.com/gateway/directservice/pay",
+					"protocol": "https",
+					"host": [
+						"test-secure",
+						"oceanpayment",
+						"com"
+					],
+					"path": [
+						"gateway",
+						"directservice",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
